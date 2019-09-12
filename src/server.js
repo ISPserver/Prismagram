@@ -8,9 +8,9 @@ import schema from "./schema";
 import { sendSecretMail } from "./utils";
 
 sendSecretMail("itnicolasme@gmail.com", "123");
-console.log(process.env);
 
-const PORT = process.env.PORT || 4000;
+
+const PORT = process.env.PORT || 5000;
 
 const server = new GraphQLServer({ schema });
 
